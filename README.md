@@ -13,11 +13,12 @@
     - [http://db.lamp.lv.localhost:8102](http://db.lamp.lv.localhost:8102)
 
 ### Initialize LV project
+- Run on docker container: ```docker exec -it --user www-data lamp_lv-server bash```
 
 ```
 cd ./lamp-lv
 rm -rf ./codebase
-composer create-project symfony/website-skeleton codebase
+composer create-project laravel/laravel codebase
 sudo chmod -R og+rw lamp-lv/
 sudo chown -R jarek:jarek lamp-lv/
 ```
