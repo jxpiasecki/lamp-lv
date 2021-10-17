@@ -1,0 +1,5 @@
+!codebase/public/index.php
+!codebase/composer.phar
+/codebase/*
+/.idea
+
